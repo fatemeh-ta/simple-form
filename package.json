@@ -1,0 +1,19 @@
+{
+  "name": "form-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w sass/ -o css/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aasaam/noto-font": "0.0.10",
+    "bulma": "^0.9.4",
+    "http-server": "^14.1.1",
+    "node-sass": "^8.0.0",
+    "sass": "^1.57.1"
+  }
+}

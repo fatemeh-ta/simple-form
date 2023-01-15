@@ -1,0 +1,13 @@
+@import "./node_modules/bulma/bulma.sass";
+@import "../node_modules/@aasaam/noto-font/dist/font-face.css";
+
+body {
+    font-family: 'aasaam-Noto';
+    color: #000;
+    background-color: #5d5c5c26;
+}
+
+input,
+button {
+    font-family: 'aasaam-Noto';
+}
