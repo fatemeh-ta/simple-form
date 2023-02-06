@@ -1,4 +1,3 @@
-@import "./node_modules/bulma/bulma.sass";
 @import "../node_modules/@aasaam/noto-font/dist/font-face.css";
 
 body {
@@ -10,4 +9,36 @@ body {
 input,
 button {
     font-family: 'aasaam-Noto';
+}
+
+.main_wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+form {
+    padding-top: 32px;
+    p {
+        font-size: 10px;
+        color: #5a5a5a;
+    }
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+input:optional {
+    background-color: #9f09e4;
+}
+
+input:required {
+    background-color: #a9ac1b;
+}
+input:invalid {
+    background-color: #ff0707;
+}
+
+input:valid {
+    background-color: #07ff28;
 }
