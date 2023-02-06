@@ -1,6 +1,6 @@
 # Form Practice
 
-> ###### This is a simple form with use from bulma frameworks
+###### This is a simple form
 
 ####Get Started:
 
